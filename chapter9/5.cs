@@ -14,7 +14,7 @@ namespace chapter9
     {
         public _5() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
         private int i; // 필드 :멤버 변수
         private void _5_Load(object sender, EventArgs e)
