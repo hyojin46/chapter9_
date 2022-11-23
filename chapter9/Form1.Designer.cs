@@ -35,20 +35,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 32);
+            this.label1.Location = new System.Drawing.Point(12, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 12);
+            this.label1.Size = new System.Drawing.Size(81, 12);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "모달 대화상자";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(39, 97);
+            this.button1.Location = new System.Drawing.Point(12, 90);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(196, 50);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "닫기";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
