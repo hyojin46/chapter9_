@@ -17,9 +17,9 @@ namespace chapter9
             InitializeComponent();
         }
 
-        private void _3_Load(object sender, EventArgs e)
+        private void _3_Load(object sender, EventArgs e) //폼로드하는 경우
         {
-            MessageBox.Show("MessageBox", "Title Bar")
+            MessageBox.Show("MessageBox", "Title Bar");
         }
     }
 }
