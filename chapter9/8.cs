@@ -30,5 +30,6 @@ namespace chapter9
                 textBox1.Text += strTmp;
                 textBox1.Text += "\r\n"; // 줄바꿈 문자 추가
             }
+        }
     }
 }
