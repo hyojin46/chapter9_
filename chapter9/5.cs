@@ -19,7 +19,7 @@ namespace chapter9
         private int i; // 필드 :멤버 변수
         private void _5_Load(object sender, EventArgs e) //폼 로드한 경우
         {
-            i = i < 64 ? i += 16 : 0;
+            i = i < 64 ? i += 16 : 0; //열거형 수치의 차이가 16
             this.Text = ((MessageBoxIcon)i).ToString(); //열거형 CAST
             MessageBox.Show("MessageBoxIcon", "Title Bar",MessageBoxButtons.OKCancel, (MessageBoxIcon)i);
         }
