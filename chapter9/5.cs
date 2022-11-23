@@ -21,7 +21,7 @@ namespace chapter9
         {
             i = i < 64 ? i += 16 : 0; //열거형 수치의 차이가 16
             this.Text = ((MessageBoxIcon)i).ToString(); //열거형 CAST
-            MessageBox.Show("MessageBoxIcon", "Title Bar",MessageBoxButtons.OKCancel, (MessageBoxIcon)i);
+            MessageBox.Show("MessageBoxIcon", "Title Bar",MessageBoxButtons.OKCancel, (MessageBoxIcon)i); //버튼을 누를때 마다 아이콘이 변경됨
         }
     }
 }
