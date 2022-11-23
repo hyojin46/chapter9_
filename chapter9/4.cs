@@ -14,7 +14,7 @@ namespace chapter9
     {
         public _4() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
         private void _4_Load(object sender, EventArgs e)
