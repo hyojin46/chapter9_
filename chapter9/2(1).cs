@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace chapter9
 {
-    public partial class _2 : Form
+    public partial class _2_1_ : Form
     {
-        public _2()
+        public _2_1_()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            _2_1_ modaless = new _2_1_();
-            modaless.Show();
         }
     }
 }
