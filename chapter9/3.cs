@@ -19,7 +19,7 @@ namespace chapter9
 
         private void _3_Load(object sender, EventArgs e) //폼로드하는 경우
         {
-            MessageBox.Show("MessageBox", "Title Bar");
+            MessageBox.Show("MessageBox", "Title Bar"); //메시지박스 버튼을 지정해주지 않은경우 -> 디폴트버튼 = OK
         }
     }
 }
