@@ -12,12 +12,12 @@ namespace chapter9
 {
     public partial class _7 : Form
     {
-        public _7()
+        public _7() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //파일찾기 버튼 이벤트 처리기
         {
             openFileDialog1.InitialDirectory = @"C:\";
             openFileDialog1.Filter = "텍스트 파일(*.txt)|*.txt|모든 파일(*.*)|*.*";
