@@ -20,7 +20,7 @@ namespace chapter9
         private void button1_Click(object sender, EventArgs e)
         {
             _2_1_ modaless = new _2_1_(); //모달리스폼 객체 생성
-            modaless.Show();
+            modaless.Show();//모달리스폼 화면 띄우기
         }
     }
 }
