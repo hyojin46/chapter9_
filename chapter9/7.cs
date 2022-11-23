@@ -24,7 +24,7 @@ namespace chapter9
             openFileDialog1.FilterIndex = 1; // 텍스트 파일(*.txt)|*.txt 선택한 경우
             openFileDialog1.RestoreDirectory = true; //Filter프로퍼티의 현재 index
             openFileDialog1.ShowDialog(); //모달로 파일열기 대화상자 띄우기
-            textBox1.Text = openFileDialog1.FileName;
+            textBox1.Text = openFileDialog1.FileName; //텍스트박스의 내용에 파일이름명 저장
         }
     }
 }
