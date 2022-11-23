@@ -19,7 +19,7 @@ namespace chapter9
 
         private void _4_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("MessageBoxButtons", "Title Bar",MessageBoxButtons.OKCancel);
         }
     }
 }
