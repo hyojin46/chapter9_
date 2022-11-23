@@ -17,7 +17,7 @@ namespace chapter9
             InitializeComponent(); //초기화
         }
 
-        private void _4_Load(object sender, EventArgs e)
+        private void _4_Load(object sender, EventArgs e) //폼로드하는 경우
         {
             MessageBox.Show("MessageBoxButtons", "Title Bar",MessageBoxButtons.OKCancel);
         }
