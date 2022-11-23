@@ -19,7 +19,7 @@ namespace chapter9
 
         private void button1_Click(object sender, EventArgs e) //닫기 버튼 이벤트 처리기
         {
-
+            this.Close(); //모달리스폼 닫기
         }
     }
 }
