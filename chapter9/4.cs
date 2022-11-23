@@ -19,7 +19,7 @@ namespace chapter9
 
         private void _4_Load(object sender, EventArgs e) //폼로드하는 경우
         {
-            MessageBox.Show("MessageBoxButtons", "Title Bar",MessageBoxButtons.OKCancel);
+            MessageBox.Show("MessageBoxButtons", "Title Bar",MessageBoxButtons.OKCancel); //메시지박스 띄우기
         }
     }
 }
