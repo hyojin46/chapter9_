@@ -12,7 +12,7 @@ namespace chapter9
 {
     public partial class _2 : Form
     {
-        public _2()
+        public _2() //생성자
         {
             InitializeComponent();
         }
