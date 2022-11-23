@@ -20,7 +20,7 @@ namespace chapter9
         private void _5_Load(object sender, EventArgs e) //폼 로드한 경우
         {
             i = i < 64 ? i += 16 : 0;
-            this.Text = ((MessageBoxIcon)i).ToString();
+            this.Text = ((MessageBoxIcon)i).ToString(); //열거형 CAST
             MessageBox.Show("MessageBoxIcon", "Title Bar",MessageBoxButtons.OKCancel, (MessageBoxIcon)i);
         }
     }
