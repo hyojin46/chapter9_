@@ -17,7 +17,7 @@ namespace chapter9
             InitializeComponent(); //초기화
         }
 
-        private void _6_Load(object sender, EventArgs e)
+        private void _6_Load(object sender, EventArgs e) //폼로드한 경우
         {
             MessageBox.Show("MessageBoxDefaultButton", "Title Bar",MessageBoxButtons.YesNoCancel,MessageBoxIcon.Question,MessageBoxDefaultButton.Button2);
         }
