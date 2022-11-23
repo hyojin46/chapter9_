@@ -12,9 +12,9 @@ namespace chapter9
 {
     public partial class _8 : Form
     {
-        public _8()
+        public _8() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
         private void button1_Click(object sender, EventArgs e)
