@@ -22,7 +22,7 @@ namespace chapter9
             openFileDialog1.InitialDirectory = @"C:\";
             openFileDialog1.Filter = "텍스트 파일(*.txt)|*.txt|모든 파일(*.*)|*.*";
             openFileDialog1.FilterIndex = 1; // 텍스트 파일(*.txt)|*.txt 선택한 경우
-            openFileDialog1.RestoreDirectory = true;
+            openFileDialog1.RestoreDirectory = true; //Filter프로퍼티의 현재 index
             openFileDialog1.ShowDialog();
             textBox1.Text = openFileDialog1.FileName;
         }
