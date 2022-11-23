@@ -16,5 +16,11 @@ namespace chapter9
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e) //
+        {
+            Form1 form1 = new Form1(); //모달 창 객체 생성
+            form1.ShowDialog();
+        }
     }
 }
