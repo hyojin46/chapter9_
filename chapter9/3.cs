@@ -14,7 +14,7 @@ namespace chapter9
     {
         public _3() //생성자
         {
-            InitializeComponent();
+            InitializeComponent(); //초기화
         }
 
         private void _3_Load(object sender, EventArgs e) //폼로드하는 경우
