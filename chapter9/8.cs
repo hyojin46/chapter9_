@@ -21,10 +21,10 @@ namespace chapter9
         {
             openFileDialog1.InitialDirectory = @"C:\";
             openFileDialog1.Filter = "텍스트 파일(*.txt)|*.txt|모든 파일(*.*)|*.*";
-            openFileDialog1.FilterIndex = 1;
+            openFileDialog1.FilterIndex = 1; // 텍스트 파일(*.txt)|*.txt 선택
             openFileDialog1.RestoreDirectory = true;
             openFileDialog1.Multiselect = true;
-            openFileDialog1.ShowDialog();
+            openFileDialog1.ShowDialog(); //모달방식으로 창띄우기
             foreach (string strTmp in openFileDialog1.FileNames)
             {
                 textBox1.Text += strTmp;
